@@ -23,7 +23,7 @@ const sendQuote = async ({
     const sentFrom = new Sender(senderEmail, "Cleancorp");
 
     const recipients = [new Recipient(email, name)];
-    const cc = [new Recipient('susan@cleancorp.co.nz', "Susan")];
+    const cc = [new Recipient('kody@projectseven.co.nz', "Kody")];
 
     const variables = [
         {
